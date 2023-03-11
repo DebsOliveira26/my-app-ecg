@@ -8,11 +8,14 @@
 
 <ion-content [fullscreen]="true" class="ion-padding">
   <div class="ion-padding">
+    <!-- nome de cadastro selecionado -->
     <ion-item-divider class="ion-padding">Nome do cadastro selecionado</ion-item-divider>
-  </div>
-  <ion-item-divider>Meu ECG</ion-item-divider>
+  </div><br>
   <div>
+    <!-- data atual -->
     <ion-datetime presentation="date" [preferWheel]="true"></ion-datetime>
   </div>
-
+  <div class="plotagem">
+    <!-- plotagem de um gráfico de ECG -->
+  </div>
 </ion-content>
