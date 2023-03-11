@@ -1,17 +1,21 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      {{cadastro}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-list>
+    <ion-button (click)="showTab3Page()" fill="outline" color="success">Cadastro Selecionado</ion-button>
+      <p>Cadastro 1</p>
+      <p>Cadastro 2</p>
+      <p>Cadastro 3</p>
+      <p>Cadastro 4</p>
+      <p>Cadastro 5</p>
+  </ion-list>
+
 </ion-content>
+

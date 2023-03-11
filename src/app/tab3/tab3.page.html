@@ -1,17 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      {{meuEcg}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="ion-padding">
+    <ion-item-divider class="ion-padding">Nome do cadastro selecionado</ion-item-divider>
+  </div>
+  <ion-item-divider>Meu ECG</ion-item-divider>
+  <div>
+    <ion-datetime presentation="date" [preferWheel]="true"></ion-datetime>
+  </div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
 </ion-content>

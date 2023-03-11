@@ -1,0 +1,7 @@
+{
+  "name": "myAppECG",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

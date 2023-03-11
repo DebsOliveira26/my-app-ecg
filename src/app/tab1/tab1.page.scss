@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ion-toolbar {
+  --opacity: .5
+}
+
+ion-content::part(background) {
+  background: #fff;
+}
+
+ion-content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  display: flex;
+  height: 100%;
+}
+
+ion-item-divider {
+  background: #fff;
+}
+
+ion-input {
+  color: black;
+}
+
+ion-header{
+  background: #330000;
+}
+
+code {
+  white-space: pre-wrap;
+}

@@ -1,0 +1,25 @@
+ion-content::part(background) {
+  background: #ffffff;
+}
+
+ion-content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+  display: flex;
+}
+
+ion-header {
+  background-color: #330000;
+}
+
+ion-item-divider {
+  background: #ffffff;
+}
+
+
+ion-list {
+  color: black;
+  background-color: #ffffff;
+}
