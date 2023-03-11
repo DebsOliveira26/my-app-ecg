@@ -8,21 +8,23 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-  <form method="get" action="envio_dados.php">
+  <form class="form-horizontal">
     <div class="container">
       <ion-item-divider>Meu ECG</ion-item-divider>
+    </div>
+    <div class="container">
       <ion-input placeholder="Nome" [clearInput]="true" name="nome">Nome: </ion-input>
       <ion-input placeholder="00/00/0000" maxlength="8" name="dataNasc">Data de nascimento: </ion-input>
       <ion-input type="number" placeholder="000.000.000-00" maxlength="11" name="cpf" mask="99.999.999/9999-99" required>CPF: </ion-input>
       <ion-input placeholder="(00)00000-0000" type="tel" maxlength="11" name="Telefone" mask='(00)00000-0000' required>Telefone: </ion-input>
     </div>
       <div class="container">
-        <ion-button (click)="showTab2Page()" fill="outline" color="success" type="submit">Entrar</ion-button>
-        <ion-button fill="outline" color="danger">Limpar</ion-button>
+        <ion-button (click)="showTab2Page()" fill="outline" color="success" type="submit" class="btn btn-primary">Entrar</ion-button>
+        <ion-button fill="outline" color="danger" class="btn btn-default" (click)="resetar()">Cancelar</ion-button>
       </div>
   </form>
 </ion-content>
 <script>
-  
+
 </script>
 

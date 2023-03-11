@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
 login = "Login";
+nomeCadastro = 'nome';
 
 constructor(
   private navCtrl:NavController
@@ -18,6 +19,14 @@ constructor(
 
   showTab2Page(){
     this.navCtrl.navigateForward('tab2.page.html')
+  }
+
+  resetar(){
+    alert('Operação cancelada');
+  }
+
+  submit() {
+    console.log(this.nomeCadastro);
   }
 }
 
