@@ -1,0 +1,8 @@
+{
+  "name": "myAppEcg",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "46a8ac70"
+}
